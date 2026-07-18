@@ -1,0 +1,26 @@
+\begin{table*}[t]
+\caption{RQ3 detecting layer and harness ground-truth injection class.}
+\label{tab:rq3-matrix}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{0.8pt}
+\renewcommand{\arraystretch}{1.08}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccccccccccccc}
+\toprule
+\textbf{Injection} & \textbf{A0/I0} & \textbf{A0/I1} & \textbf{A0/I2} & \textbf{A0/I3} & \textbf{A1/I0} & \textbf{A1/I1} & \textbf{A1/I2} & \textbf{A1/I3} & \textbf{B/I0} & \textbf{B/I1} & \textbf{B/I2} & \textbf{B/I3} & \textbf{C/I0} & \textbf{C/I1} & \textbf{C/I2} & \textbf{C/I3} \\
+\midrule
+clean & PASS & PASS & PASS & PASS & PASS & PASS & PASS & PASS & PASS & PASS & PASS & PASS & PASS & PASS & PASS & PASS \\
+stale-1 & N/A & N/A & N/A & N/A & SIG & SIG & SIG & SIG & SIG & SIG & SIG & SIG & SIG & SIG & SIG & SIG \\
+stale-2 & FRESH & FRESH & FRESH & FRESH & FRESH & FRESH & FRESH & FRESH & FRESH & FRESH & FRESH & FRESH & FRESH & FRESH & FRESH & FRESH \\
+stale-3 & N/A & N/A & N/A & N/A & MISS & MISS & MISS & MISS & REEXEC & REEXEC & REEXEC & REEXEC & REEXEC & REEXEC & REEXEC & REEXEC \\
+semantics-version-drift & N/A & N/A & N/A & N/A & MISS & MISS & MISS & MISS & MISS & REEXEC & REEXEC & REEXEC & MISS & REEXEC & REEXEC & REEXEC \\
+single-op backend fault & N/A & N/A & N/A & N/A & MISS & MISS & MISS & MISS & MISS & REEXEC & REEXEC & REEXEC & MISS & REEXEC & REEXEC & REEXEC \\
+equal-result trace divergence & N/A & N/A & N/A & N/A & MISS & MISS & MISS & MISS & MISS & MISS & MISS & MISS & REEXEC & REEXEC & REEXEC & REEXEC \\
+outcome confusion & N/A & N/A & N/A & N/A & MISS & MISS & MISS & MISS & REEXEC & REEXEC & REEXEC & REEXEC & REEXEC & REEXEC & REEXEC & REEXEC \\
+diagnostics as success & N/A & N/A & N/A & N/A & MISS & MISS & MISS & MISS & REEXEC & REEXEC & REEXEC & REEXEC & REEXEC & REEXEC & REEXEC & REEXEC \\
+Rust-backend common-mode & N/A & N/A & N/A & N/A & MISS & MISS & MISS & MISS & MISS & MISS & MISS & REEXEC & MISS & MISS & MISS & REEXEC \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

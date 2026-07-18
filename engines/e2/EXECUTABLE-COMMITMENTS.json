@@ -1,0 +1,17 @@
+{
+  "schema": "sealed-surfaces.excluded-artifact-commitments/v1",
+  "engine": "E2",
+  "artifacts": {
+    "clean_executable": {
+      "included": false,
+      "byte_length": 27145176,
+      "sha256": "1048f8f18c416be218fdcffadf360817009054614748b58465dfec3927138df8"
+    },
+    "fault_executable": {
+      "included": false,
+      "byte_length": 27144596,
+      "sha256": "d2a3ff1e9409abdea4743a227b33a19809c4c8b8f69c8028cad6dae2bd824359"
+    }
+  },
+  "exclusion": "identity-bearing private executable bytes are excluded from the blinded artifact"
+}

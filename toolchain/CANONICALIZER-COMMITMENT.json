@@ -1,0 +1,8 @@
+{
+  "schema": "sealed-surfaces.excluded-tool-commitment/v1",
+  "role": "RQ3 canonicalizer executable",
+  "included": false,
+  "byte_length": 27141417,
+  "sha256": "976544ee211144b8b6bb486d8228c0a64e6077e2d41db5ecd270ddd5967f76bd",
+  "exclusion": "the executable statically contains excluded implementation code and identity-bearing build metadata; blinded source and dependency provenance are included"
+}

@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\caption{Pre-registered carrier decision subset.}
+\label{tab:carrier-result}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.2pt}
+\renewcommand{\arraystretch}{1.08}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrr}
+\toprule
+\textbf{Fairness mode} & \textbf{Arm} & \textbf{Trials} & \textbf{\code{robust\allowbreak{}Recover}} & \textbf{Decoder wrong-output} & \textbf{Authenticated false acceptance} & \textbf{Diagnostic F1} \\
+\midrule
+equal area & custom grid & 27 & 0.704 & 0.000 & 0.000 & 0.957 \\
+equal area & mosaic + outer RS & 27 & 1.000 & 0.000 & 0.000 & 1.000 \\
+equal module & custom grid & 27 & 0.704 & 0.000 & 0.000 & 0.958 \\
+equal module & mosaic + outer RS & 27 & 1.000 & 0.000 & 0.000 & 1.000 \\
+pooled & custom grid & 54 & 0.704 & 0.000 & 0.000 & 0.957 \\
+pooled & mosaic + outer RS & 54 & 1.000 & 0.000 & 0.000 & 1.000 \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

@@ -1,0 +1,44 @@
+{
+  "schema": "sealed-surfaces.blinded-source-commitments/v1",
+  "engine": "E1",
+  "included": false,
+  "exclusion": "private implementation source cannot be both license-clean and absolutely blinded",
+  "source_tree": {
+    "status": "VERIFIED",
+    "included": false,
+    "digest_algorithm": "blinded-tree-sha256-v1",
+    "algorithm_reference": "../COMMITMENT-SCHEMA.md",
+    "file_count": 10,
+    "aggregate_byte_length": 382700,
+    "preimage_byte_length": 777,
+    "sha256": "64d158f431dd401d33a7d24724fa533cd4fb97c75f0861c4f641a37f267eb593",
+    "selection": "historical E1 library and CLI source closure used by the retained clean executable",
+    "byte_policy": "exact historical worktree bytes and line endings"
+  },
+  "build_manifest": {
+    "status": "VERIFIED",
+    "included": false,
+    "byte_length": 1607,
+    "worktree_sha256": "ed8a73b2dc138ee80610d7b88ccd3c8f0e0d81eb40d3be7814fea24dbc0b2fb7",
+    "lf_normalized_sha256": "82a1c60de2fdd32c779fcce38e9061a600dd8e4be621d9f2b1f702ac4612305b"
+  },
+  "dependency_lock": {
+    "status": "VERIFIED",
+    "included": false,
+    "byte_length": 4326,
+    "worktree_sha256": "2a72d91d4dbc5a210d9fd572847bd12f232369e925a8b0ea05d571e38b26ae72",
+    "lf_normalized_sha256": "21436542ed8a8bb929351f2965fa4f0f9eb91ec967556c47e45fed040d0f5cd9"
+  },
+  "build_profile": {
+    "status": "VERIFIED",
+    "included": true,
+    "digest_algorithm": "canonical-json-sha256-v1",
+    "preimage": "{\"cargo\":\"1.96.0\",\"command\":[\"cargo\",\"build\",\"--bin\",\"E1\"],\"explicit_flags\":[],\"profile\":\"debug\",\"rustc\":\"1.96.0\"}",
+    "sha256": "dfae0ad620a7681431c730ebb4525063d6d3ac1cebd957b6556754ba378dc15a"
+  },
+  "fault_source": {
+    "status": "UNKNOWN",
+    "reason": "the exact temporary mutation patch was not retained; no reconstruction is presented as original"
+  }
+}
+

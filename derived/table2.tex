@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\caption{Recorded eight-axis RQ3 independence vectors.}
+\label{tab:rq3-profiles}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{2.2pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{p{0.14\textwidth}p{0.19\textwidth}p{0.19\textwidth}p{0.19\textwidth}p{0.19\textwidth}}
+\toprule
+\textbf{Axis} & \textbf{I0: E3 $\rightarrow$ E3} & \textbf{I1: E3 $\rightarrow$ E1} & \textbf{I2: E3 $\rightarrow$ E2} & \textbf{I3: E1 $\rightarrow$ E4} \\
+\midrule
+\code{source\_\allowbreak{}lineage} & SHARED & SHARED (common Rust lineage; distinct revision) & DISTINCT (guest L source) & SHARED (engineered transliteration) \\
+\code{parser\_\allowbreak{}lineage} & SHARED & SHARED (common lineage) & DISTINCT (guest tokenizer/reader) & SHARED (transliterated frontend) \\
+\code{sema\allowbreak{}ntics\_\allowbreak{}core\_\allowbreak{}lineage} & SHARED & SHARED (common lineage) & DISTINCT (guest machine source) & SHARED (transliterated semantic choices) \\
+\code{build\_\allowbreak{}tool\allowbreak{}chain} & SHARED & SHARED (Cargo/rustc) & SHARED (Cargo wrapper) & DISTINCT (Rust/Cargo vs cross-language artifact) \\
+\code{runtime\_\allowbreak{}backend} & SHARED & SHARED (native Rust) & PARTIAL (guest L machine; shared Rust host) & DISTINCT (native Rust vs cross-language interpreter) \\
+\code{depen\allowbreak{}dency\_\allowbreak{}set} & SHARED & PARTIAL (substantial overlap) & PARTIAL (shared host/contracts) & PARTIAL (separate engine trees; shared OS/contracts) \\
+\code{hardware\_\allowbreak{}archit\allowbreak{}ecture} & SHARED & SHARED & SHARED & SHARED \\
+\code{operator\_\allowbreak{}or\_\allowbreak{}organi\allowbreak{}zation} & SHARED & SHARED & SHARED & SHARED \\
+\bottomrule
+\end{tabular}
+\end{table*}

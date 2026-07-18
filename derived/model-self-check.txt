@@ -1,0 +1,10 @@
+NON-LAUNDERING MODEL: PASS
+exhausted 65536 quaternary relation vectors and 32 relation/provenance gate cases
+checked aggregation over 287 singleton and 82369 ordered status pairs and 23639903 ordered status triples, including 30 disagreement-supersession cases
+checked 1024 action-policy verifier-scope pins and authorization digest/epoch outputs
+checked 7 verifier-store epoch, supersession, and report-content digest cases
+exhausted 9216 raw states x 1024 policies = 9437184 state-policy pairs
+checked 28482 generated policy edges, 322370 reachable edges, and 31744 forbidden-origin path families
+BROKEN VARIANT CAUGHT: policy relabelled VerificationStatus: not_reexecuted -> execution_agreed
+PUBLISHER-ASSERTED MUTATION CAUGHT: authorization lacks its required evidence/provenance/policy guard: status=execution_agreed, high_authority_mask=0, required_mask=1
+RAW-P POLICY MUTATION CAUGHT: authorization lacks its required evidence/provenance/policy guard: status=execution_agreed, high_authority_mask=0, required_mask=1

@@ -1,0 +1,8 @@
+[package]
+name = "rq3-dsl_l-canonicalize"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+dsl_l = { path = "../../../../engines/e3/implementation" }

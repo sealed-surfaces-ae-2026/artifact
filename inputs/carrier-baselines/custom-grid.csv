@@ -1,0 +1,4 @@
+"experiment","arm","trials","robust_recover_rate","decoder_wrong_output_rate","authenticated_false_acceptance_rate","diagnostic_accuracy_mean"
+"equal_area","custom_grid","27","0.7037037037037037","0.0","0.0","0.9572807649154859"
+"equal_module","custom_grid","27","0.7037037037037037","0.0","0.0","0.957704184949129"
+"pooled","custom_grid","54","0.7037037037037037","0.0","0.0","0.9574924749323075"

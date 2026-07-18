@@ -1,0 +1,27 @@
+{
+  "schema": "sealed-surfaces.excluded-artifact-commitments/v1",
+  "engine": "E4",
+  "artifacts": {
+    "interpreter_host": {
+      "included": false,
+      "byte_length": 13650321,
+      "sha256": "a8b591fad8fb3a8d29cc0ad446f463b7911b5431458e318eb8bfd2722a18c2ff"
+    },
+    "generated_native_host": {
+      "included": false,
+      "byte_length": 12901148,
+      "sha256": "81f42a3af60b57e04f237d6db9d0c904f22ba5f5a2ff75e38769f6c83b631ce1"
+    },
+    "evaluator_source_module": {
+      "included": false,
+      "byte_length": 464206,
+      "sha256": "89fec2dd2bd6f1771cfd4a920a5a3465f8f57a766e99206755dc00f587fd97fa"
+    },
+    "host_adapter_module": {
+      "included": false,
+      "byte_length": 15966,
+      "sha256": "61e74a9b8c70a978bd15b0a0b3eca2227b76ca4bdaf7da60e99a09401c169f9d"
+    }
+  },
+  "exclusion": "identity-bearing private host and module bytes are excluded from the blinded artifact"
+}

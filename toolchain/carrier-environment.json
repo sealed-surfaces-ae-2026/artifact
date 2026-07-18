@@ -1,0 +1,31 @@
+{
+  "run_note": "deterministic run; wall clock intentionally omitted",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10",
+  "packages": {
+    "Pillow": "12.3.0",
+    "numpy": "2.5.1",
+    "opencv-python-headless": "5.0.0.93",
+    "reedsolo": "1.7.0",
+    "cryptography": "49.0.0",
+    "zxing-cpp": "3.1.0",
+    "pylibdmtx": "0.1.10",
+    "qrcode": "8.2",
+    "aztec-code-generator": "0.12"
+  },
+  "seed": 20260718,
+  "repetitions": 3,
+  "capture_px": [
+    1600,
+    1600
+  ],
+  "field_mm": [
+    200.0,
+    200.0
+  ],
+  "equal_area_box_px": 1200,
+  "equal_module_px": 4,
+  "decode_budget_ms": 2000.0,
+  "data_matrix_substitution": "pylibdmtx installed but libdmtx-64.dll unavailable; ZXing-C++ ECC200 used",
+  "preregistered_protocol": "inputs/preregistration/carrier-protocol.md"
+}

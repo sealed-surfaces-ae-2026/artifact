@@ -1,0 +1,4 @@
+"experiment","arm","trials","robust_recover_rate","decoder_wrong_output_rate","authenticated_false_acceptance_rate","diagnostic_accuracy_mean"
+"equal_area","mosaic_outer_rs","27","1.0","0.0","0.0","1.0"
+"equal_module","mosaic_outer_rs","27","1.0","0.0","0.0","1.0"
+"pooled","mosaic_outer_rs","54","1.0","0.0","0.0","1.0"

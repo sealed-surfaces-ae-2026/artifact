@@ -1,0 +1,61 @@
+{
+  "schema": "sealed-surfaces.blinded-source-commitments/v1",
+  "engine": "E2",
+  "included": false,
+  "exclusion": "private implementation source cannot be both license-clean and absolutely blinded",
+  "source_tree": {
+    "status": "UNKNOWN",
+    "included": false,
+    "sha256": null,
+    "reason": "the genuine observation captured executable and module identities but not a dirty-tree digest before a concurrent private-worktree rebuild; a later committed tree is not substituted"
+  },
+  "observed_modules": [
+    {
+      "role": "hosted-source-bundle",
+      "status": "VERIFIED",
+      "included": false,
+      "sha256": "cea1e27515f5f74bd287adafa7375e05200e9742b499f052840d1fea2369d3e2"
+    },
+    {
+      "role": "frontend-source-bundle",
+      "status": "VERIFIED",
+      "included": false,
+      "sha256": "0156e5c9adbd35f1db631db854f7bc8d3698ce81c5fa80a33c773a7ca402cb09"
+    },
+    {
+      "role": "bootstrap-runner-module",
+      "status": "VERIFIED",
+      "included": false,
+      "sha256": "8fd90d8adcfdcafa4f0daee1b7900191dcdbb0f3447653c6e3c2044fee2bc27a"
+    },
+    {
+      "role": "capability-manifest",
+      "status": "VERIFIED",
+      "included": false,
+      "sha256": "7252cc91ce3685d1085e127777977ee9938f092e015bd37d7e56b4fc556df1ee"
+    }
+  ],
+  "build_manifest": {
+    "status": "UNKNOWN",
+    "included": false,
+    "sha256": null,
+    "reason": "not captured as a build preimage for the genuine executable"
+  },
+  "dependency_lock": {
+    "status": "UNKNOWN",
+    "included": false,
+    "sha256": null,
+    "reason": "not captured as a build preimage for the genuine executable"
+  },
+  "build_profile": {
+    "status": "UNKNOWN",
+    "included": false,
+    "sha256": null,
+    "reason": "the harness command is known, but no build-profile digest was captured before the concurrent rebuild"
+  },
+  "fault_source": {
+    "status": "UNKNOWN",
+    "reason": "the exact temporary mutation patch was not retained"
+  }
+}
+

@@ -1,0 +1,35 @@
+{
+  "schema": "sealed-surfaces.blinded-source-commitments/v1",
+  "engine": "E3",
+  "included": false,
+  "exclusion": "private implementation source cannot be both license-clean and absolutely blinded",
+  "source_tree": {
+    "status": "UNKNOWN",
+    "included": false,
+    "sha256": null,
+    "reason": "the genuine observation captured its executable identity but not a dirty-tree digest before a concurrent private-worktree rebuild; a later committed tree is not substituted"
+  },
+  "build_manifest": {
+    "status": "UNKNOWN",
+    "included": false,
+    "sha256": null,
+    "reason": "not captured as a build preimage for the genuine executable"
+  },
+  "dependency_lock": {
+    "status": "UNKNOWN",
+    "included": false,
+    "sha256": null,
+    "reason": "not captured as a build preimage for the genuine executable"
+  },
+  "build_profile": {
+    "status": "UNKNOWN",
+    "included": false,
+    "sha256": null,
+    "reason": "the harness command is known, but no build-profile digest was captured before the concurrent rebuild"
+  },
+  "fault_source": {
+    "status": "UNKNOWN",
+    "reason": "the exact temporary mutation patch was not retained"
+  }
+}
+

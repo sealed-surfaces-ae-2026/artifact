@@ -1,0 +1,76 @@
+{
+  "schema": "sealed-surfaces.blinded-source-commitments/v1",
+  "engine": "E4",
+  "included": false,
+  "exclusion": "private implementation source and required legal notice cannot be included under absolute blinding",
+  "evaluator_source": {
+    "status": "VERIFIED",
+    "included": false,
+    "byte_length": 464206,
+    "sha256": "89fec2dd2bd6f1771cfd4a920a5a3465f8f57a766e99206755dc00f587fd97fa"
+  },
+  "host_adapter_module": {
+    "status": "VERIFIED",
+    "included": false,
+    "byte_length": 15966,
+    "sha256": "61e74a9b8c70a978bd15b0a0b3eca2227b76ca4bdaf7da60e99a09401c169f9d"
+  },
+  "interpreter_host_source_tree": {
+    "status": "VERIFIED",
+    "included": false,
+    "digest_algorithm": "blinded-tree-sha256-v1",
+    "algorithm_reference": "../COMMITMENT-SCHEMA.md",
+    "file_count": 142,
+    "aggregate_byte_length": 7153945,
+    "preimage_byte_length": 10934,
+    "sha256": "91d838d98ab4667d131b1a4cb03088b9bb88734a307c5c6322a8ce9eb02fdfdf"
+  },
+  "generator_and_replay_modules": {
+    "status": "VERIFIED",
+    "included": false,
+    "digest_algorithm": "blinded-tree-sha256-v1",
+    "algorithm_reference": "../COMMITMENT-SCHEMA.md",
+    "file_count": 5,
+    "aggregate_byte_length": 68028,
+    "preimage_byte_length": 388,
+    "sha256": "83687981228ddb65866753cc0c9decba16ba1a369fb399bc0097c7d6dbaa4bea"
+  },
+  "generated_native_emitted_source": {
+    "status": "UNKNOWN",
+    "included": false,
+    "sha256": null,
+    "reason": "the generated Rust workspace was ephemeral and deleted after the retained binary was built"
+  },
+  "build_manifest": {
+    "status": "VERIFIED",
+    "included": false,
+    "byte_length": 3379,
+    "sha256": "2f008eb903421b720f0f13762f5e7d281886fc2bbe5d76de9c838b13d2b6fd8a"
+  },
+  "dependency_lock": {
+    "status": "VERIFIED",
+    "included": false,
+    "byte_length": 2191,
+    "sha256": "848655fb55887d533b4123bce9b8da43b02c837a5e61244b7640ce47917c2e75"
+  },
+  "toolchain_lock": {
+    "status": "VERIFIED",
+    "included": false,
+    "byte_length": 180,
+    "sha256": "f961bdf67c0f2603d9171818fd0809ea69f6ec6f6dbc76b05aca78b6634fb903"
+  },
+  "generated_native_dependency_lock": {
+    "status": "UNKNOWN",
+    "included": false,
+    "sha256": null,
+    "reason": "the emitted lock existed only in the deleted ephemeral generation workspace"
+  },
+  "build_profile": {
+    "status": "VERIFIED",
+    "included": true,
+    "digest_algorithm": "canonical-json-sha256-v1",
+    "preimage": "{\"compiler_profile\":\"release\",\"compiler_toolchain\":\"1.96.0\",\"generated_cargo\":[\"rustup\",\"run\",\"1.96.0\",\"cargo\",\"build\",\"--offline\",\"--locked\",\"--release\"],\"module_command\":[\"build\",\"--release\",\"<module>\",\"--out-dir\",\"<temporary-directory>\"],\"pe_stack_reserve_bytes\":67108864,\"rustflags\":\"--remap-path-prefix=<temporary-directory>=/engine-build\"}",
+    "sha256": "cfbadd49b9f4daf76eb919ebfb221e6ead7a16141e0f636c4c8e21bd8a536704"
+  }
+}
+
